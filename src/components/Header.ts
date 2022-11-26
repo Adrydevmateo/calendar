@@ -5,6 +5,9 @@ const iconsSection: HTMLElement = document.createElement("section");
 const iconsFirstSpan: HTMLSpanElement = document.createElement("span");
 const iconsSecondSpan: HTMLSpanElement = document.createElement("span");
 
+iconsFirstSpan.setAttribute("id", "prev");
+iconsSecondSpan.setAttribute("id", "next");
+
 paragraphElement.classList.add("current-date");
 iconsSection.classList.add("icons");
 
