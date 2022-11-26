@@ -7,6 +7,8 @@ const ulDaysElement: HTMLUListElement = document.createElement("ul");
 
 CreateListItems(daysAbbreviations, ulWeeksElement);
 
+ulDaysElement.classList.add("days");
+
 calendarSectionElement.appendChild(ulWeeksElement);
 calendarSectionElement.appendChild(ulDaysElement);
 
