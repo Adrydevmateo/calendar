@@ -49,7 +49,19 @@ function renderCalendar() {
 }
 
 spanIcons.forEach((icon) => {
-  icon.addEventListener("click", () => {});
+  icon.addEventListener("click", () => {
+    currentMonth = icon.id === "prev" ? currentMonth - 1 : currentMonth + 1;
+
+    if (currentMonth < 0 || currentMonth > 11) {
+      date = new Date(currentYear, currentMonth);
+      currentYear = date.getFullYear();
+      currentMonth = date.getMonth();
+    } else {
+      date = new Date();
+    }
+
+    renderCalendar();
+  });
 });
 
 export const Calendar: Function = renderCalendar;
