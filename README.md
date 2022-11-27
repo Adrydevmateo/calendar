@@ -1,4 +1,4 @@
-![Preview](public\preview.png).
+![Preview]<img src="public/preview.png" alt="Preview Image">
 
 # Calendar
 
