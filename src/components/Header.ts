@@ -10,6 +10,11 @@ iconsSecondSpan.setAttribute("id", "next");
 
 paragraphElement.classList.add("current-date");
 iconsSection.classList.add("icons");
+iconsFirstSpan.classList.add("material-symbols-rounded");
+iconsSecondSpan.classList.add("material-symbols-rounded");
+
+iconsFirstSpan.innerText = "chevron_left";
+iconsSecondSpan.innerText = "chevron_right";
 
 // * Appending Elements
 headerElement.appendChild(paragraphElement);
