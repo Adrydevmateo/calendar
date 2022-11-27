@@ -1,3 +1,4 @@
+/* Google Fonts - Sora */
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap");
 
 * {
@@ -35,6 +36,7 @@ header .icons {
   display: flex;
 }
 
+/* Rules for the span elements inside the icons section */
 header .icons span {
   height: 38px;
   width: 38px;
@@ -56,12 +58,14 @@ header .icons span:hover {
   background: #f2f2f2;
 }
 
+/* Rules for the paragraph inside the header */
 header .current-date {
   font-size: 1.45rem;
   font-weight: 500;
   color: #8c59b6;
 }
 
+/* Rules for the calendar section */
 .calendar {
   padding: 20px;
 }
@@ -73,6 +77,7 @@ header .current-date {
   text-align: center;
 }
 
+/* Rule day section inside the calendar section */
 .calendar .days {
   margin-bottom: 20px;
 }
@@ -83,11 +88,13 @@ header .current-date {
   font-size: 1.07rem;
 }
 
+/* Rules for the li elements inside the weeks section that is inside the calendar section */
 .calendar .weeks li {
   font-weight: 500;
   cursor: default;
 }
 
+/* Rules for the li elements inside the days section that is inside the calendar section */
 .calendar .days li {
   z-index: 1;
   cursor: pointer;
