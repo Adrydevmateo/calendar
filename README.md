@@ -1,6 +1,6 @@
 <img src="public/preview.png" alt="Preview Image">
 
-# Calendar [Demo](https://calendar-nine-zeta.vercel.app/).
+# Calendar [Click here to use the application](https://calendar-nine-zeta.vercel.app/).
 
 # Calendar
 
